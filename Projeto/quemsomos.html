@@ -18,10 +18,10 @@
             </div>
             <nav>
                 <ul class="nav-list" id="main-menu">
-                    <li><a href="#">INÍCIO</a></li>
-                    <li><a href="#">QUEM SOMOS</a></li>
-                    <li><a href="#">PORTFÓLIO</a></li>
-                    <li><a href="#">ORÇAMENTOS</a></li>
+                    <li class="inicio"><a href="#">INÍCIO</a></li>
+                    <li class="quemsomos"><a href="#">QUEM SOMOS</a></li>
+                    <li class="portfolio"><a href="#">PORTFÓLIO</a></li>
+                    <li class="orcamento"><a href="#">ORÇAMENTOS</a></li>
                 </ul>
                 <button class="nav-toggle" aria-label="Abrir Menu" aria-expanded="false" aria-controls="main-menu">
                     &#9776;
@@ -35,7 +35,7 @@
 
         <section class="video-container">
             <video width="600" controls>
-                <source src="video.mp4" type="video/mp4">
+                <source src="/video/História da serralheria.mp4" type="video/mp4">
                 Seu navegador não suporta o elemento de vídeo.
             </video>
         </section>
@@ -98,7 +98,7 @@
 
             <div class="contact-info">
                 <h2>Entre em contato</h2>
-                <a href="#">serralheriadopedrinho@outlook.com</a>
+                <p class="underline">serralheriadopedrinho@outlook.com</p>
                 <p><img src="images/whatsapp.png" alt="Ícone de Telefone" style="width: 20px; height: 20px; vertical-align: middle;"> (19) 99636-6467</p>
                 <p>Avenida 1 JG, N° 414 - Jardim Guanabara 2</p>
                 <p>Rio Claro - SP</p>
@@ -114,13 +114,7 @@
         <p>&copy; 2024 - Todos os direitos reservados</p>
     </footer>
 
-    <script>
-        document.querySelector('.nav-toggle').addEventListener('click', function () {
-            const navList = document.querySelector('.nav-list');
-            navList.classList.toggle('active');
-            this.setAttribute('aria-expanded', navList.classList.contains('active'));
-        });
-    </script>
+
 </body>
 
 </html>
