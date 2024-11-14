@@ -254,9 +254,12 @@ video {
 }
 
 .quote-icon {
-    margin: 0 10px 10px 0;
-    width: 50px;
+    margin: 0 5px 5px 0;
+    width: 30px;
     vertical-align: top;
+    border-radius: 20px;
+
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
 }
 
 .testimonials {
@@ -272,21 +275,14 @@ video {
     justify-items: center;
 }
 .quote-icon {
-    width: 100%; /* ocupa 100% do contêiner pai */
+    width: 80%; /* ocupa 100% do contêiner pai */
     height:auto; /* mantém a proporção */
-   padding-top: 50px;\
+    padding-top: 5px;
+    padding-left: -20%;
+    padding-right: -20%;
 }
 
-.testimonial-card {
-    background-color: #d9d9d9;
-    padding: -20px;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    max-width: 1050px;
-    width: 100%;
-   
-}
+
 
 .testimonials h1 {
     margin-bottom: 30px;
